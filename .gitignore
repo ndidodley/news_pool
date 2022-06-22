@@ -40,3 +40,6 @@ yarn-error.log*
 .eslintrc.json
 
 yarn.lock
+
+components/footer.html
+components/header.html

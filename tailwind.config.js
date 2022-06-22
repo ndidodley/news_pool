@@ -1,12 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./pages/**/*.{html,js}'],
+  content: ['./pages/**/*.{html,js}', './components/**/*.{html, js}'],
   theme: {
     fontFamily:{
       'heading': ['Montserrat'],
       'body': ['Poppins']
     },
-    extend: {},
+    extend: {
+      colors:{
+        accent: '#F22929',
+      }
+    },
 
   },
   plugins: [],

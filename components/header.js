@@ -1,9 +1,12 @@
-import React from 'react';
+const Header = () => (
+    <div>
+        <Navbar/>
+    </div>
+)
 
-function Header(props) {
-    return (
-        <div></div>
-    );
-}
+const Navbar = () => (
+    <div className='border-[#95989A] border-2'>
 
-export default Header;
+    </div>
+)
+export default Header
