@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./pages/**/*.{html,js}', './components/**/*.{html, js}'],
+  content: ['./components/**/*.{js, html}', './pages/**/*.{js, html}'],
   theme: {
     fontFamily:{
       'heading': ['Montserrat'],

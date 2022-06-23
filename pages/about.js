@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React from 'react'
+import footer from "../components/footer";
 const About = () => {
     return (
         <div className='bg-gray-100 h-screen w-screen p-8 '>
