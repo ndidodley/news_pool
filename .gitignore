@@ -1,5 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# environment variables
+.env
+
+
 # dependencies
 /node_modules
 /.pnp
@@ -36,3 +40,6 @@ yarn-error.log*
 .eslintrc.json
 
 yarn.lock
+
+components/footer.html
+components/header.html

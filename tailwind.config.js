@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./pages/**/*.{html,js}'],
+  content: ['./components/**/*.{js, html}', './pages/**/*.{js, html}'],
   theme: {
-    extend: {},
+    fontFamily:{
+      'heading': ['Montserrat'],
+      'body': ['Poppins']
+    },
+    extend: {
+      colors:{
+        accent: '#F22929',
+      }
+    },
+
   },
   plugins: [],
 }
