@@ -1,20 +1,24 @@
 import React from 'react';
 import Link from "next/link";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const MyComponent = () => {
     return (
-        <div className='bg-gray-100 h-screen w-screen p-8 '>
-            <div className='m-auto h-64'>
+        <>
+            <Header/>
+            <div className='m-auto h-64 pt-16'>
                 <h1 className='font-bold text-center text-2xl font-heading my-4'>
                     Sorry your page hasn't been found
                 </h1>
                 <p className='font-body text-center text-gray-500 text-center'>
                     Navigate back to the <Link href='/'>
-                    <a className='text-blue-500'>Home</a>
+                    <a className='text-[#D3373C]'>Home</a>
                 </Link> page
                 </p>
             </div>
-        </div>
+            <Footer/>
+        </>
     );
 };
 
